@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.8rem; 
+    font-weight: 600;
+    color: #333;
+}
+
+h2 {
+    font-size: 5rem; 
+    font-weight: 500;
+    color: #333;
+}
+
+p {
+    font-size: 1.7rem; 
+    color: #555;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+    
+    .map-container iframe {
+        height: 300px; 
+    }
+    
+    .container {
+        padding: 0 15px; 
+    }
+}

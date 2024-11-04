@@ -1,0 +1,68 @@
+/* Centered and compact styles for Sign-in page */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.form-signin {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-signin img {
+    margin-bottom: 15px;
+}
+
+.form-signin h1 {
+    font-weight: 600;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.form-signin .form-floating {
+    position: relative;
+}
+
+.form-signin .form-floating input {
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.form-signin .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    font-weight: 500;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;      
+}
+
+.form-signin .btn-primary:hover {
+    background-color: #ffffff;
+}
+
+.form-signin a {
+    color: #0d6efd;
+}
+
+.form-signin a:hover {
+    color: #0a58ca;
+    text-decoration: none;
+}
+
+.checkbox label {
+    font-size: 0.85rem;
+}

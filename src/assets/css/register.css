@@ -1,0 +1,88 @@
+/* General styles for Register page */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.form-register {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-register h2 {
+    font-weight: 600;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.form-floating {
+    position: relative;
+}
+
+.form-floating input {
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.form-floating label {
+    font-size: 0.9rem;
+    padding: 0 5px;
+    background-color: #ffffff;
+    color: #888;
+}
+
+.form-floating input:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0px 0px 8px rgba(13, 110, 253, 0.2);
+}
+
+.form-floating input::placeholder {
+    color: #ffffff;
+}
+
+.form-floating label i {
+    margin-right: 5px;
+    color: #888;
+}
+
+.form-register .btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    font-weight: 500;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.form-register .btn-primary:hover {
+    background-color: #0a58ca;
+}
+
+.form-register p {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.form-register a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}

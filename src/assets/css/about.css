@@ -1,0 +1,49 @@
+/* General styles for About page */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.lead {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.col-md-4 h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.col-md-4 p {
+    font-size: 1rem;
+    color: #888;
+}
+
+img.rounded-circle {
+    border: 3px solid #0d6efd;
+    padding: 5px;
+}
